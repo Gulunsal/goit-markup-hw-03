@@ -216,7 +216,7 @@ font-weight: 400;
     left: 156px;
     border:1px solid #E7E9FC;
     border-radius: 4px;
-    margin-right: 24px;
+    margin-right: 32px;
    
 }
 .team-list-text {
@@ -256,7 +256,7 @@ font-weight: 400;
     background-color: #fff; 
     border:1px solid #E7E9FC;
     max-width: 80%;
-    margin-right: 5px;
+    margin-right: 24px;
    
 }
 .portfolio-list-item-images{
