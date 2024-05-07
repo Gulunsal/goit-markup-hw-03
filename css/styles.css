@@ -6,15 +6,32 @@ body {
     flex-direction:column;
     justify-content: center;
     font-family: "Roboto", sans-serif;
-    width: 110vw;
+    width: 1440px;
 }
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 72px;
-    width: 100%;
+    width: 1440px;
 
+}
+#container-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 72;
+    width: 720;
+}
+#container-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    width: 720;
+    height: 72;
+    
 }
 .nav-container {
     display: flex;
@@ -33,7 +50,7 @@ header {
      
  }
  .nav-item { 
-    width: 60%;
+   
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;}
@@ -41,27 +58,27 @@ header {
 .contact {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content:space-evenly;
     align-items: center;
     padding: 10px 20px;
-    width:80%;
+    width:720px;
     height:72px;
 
 }
  .contact-list {
-       display:flex;
-        flex-direction: row;
-        align-items: center;
-        float: right;
-        position: absolute;
-        width: 50%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
     }
  .contact-list-link {
-    width: 60%;
+   
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 50%
+    margin-left: 20px;
+    text-align: center;
+    
+    
  }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -90,7 +107,6 @@ header {
     color: #2e2f42;
     
 }
-
 .contact-list-link .link {
     font-weight: 400;
     font-size: 16px;
@@ -119,36 +135,32 @@ main {
     align-items: center;
 }
 .container-main{
-background-color: #2e2f42;
-width: 1440px;
-height: 600px;
-top:72px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-   
-    
+    background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    top:72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
 }
 
-.header-big {
-    
-font-family: Roboto;
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0.02em;
-text-align: center;
-font-size: 56px;
-line-height: 1.07;
-color: #fff;
-width: 496px;
-height: 120px;
-top: 260px;
-left: 472px;
+.header-big {    
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #fff;
+    width: 496px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
 }
-
-
 
 .button {
     background-color: #4d5ae5;
@@ -185,14 +197,13 @@ left: 472px;
     padding: 120px;
     padding-left: 48px;
     width: 1228px;
-
 }
 
 .mission-list-text, .team-list-text {
-font-weight: 400;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #434455}
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455}
 
 
 .mission-list-header, .team-list-header, .portfolio-list-header {
@@ -206,7 +217,14 @@ font-weight: 400;
     align-items: center;
     background-color: #f4f4fd;
     width: 1440px;
-    
+    height:732px;
+    top: 1016px;
+     
+}
+#container-team.card{
+    display: flex;
+    justify-content:center;
+    margin-top: 1136px;
     
 }
 
@@ -216,19 +234,20 @@ font-weight: 400;
     justify-content: center;
     background-color: #f4f4fd;
     list-style: none;
+    gap:32px;
+    padding-top:80px;
        
 }
-.team-list-item {
 
+.team-list-card {
     text-align: center;
     background-color: #fff;
     width:264px;
     height:380px;
-    top: 1248px;
-    left: 156px;
     border:1px solid #E7E9FC;
     border-radius: 4px;
-    margin-right: 32px;
+
+    
    
 }
 .team-list-text {
@@ -247,6 +266,7 @@ font-weight: 400;
     letter-spacing: 0.02em;
     text-transform:capitalize;
     color: #2e2f42;
+    padding-top: 40px;
 }
 .portfolio {
     background-color: #fff;
@@ -261,21 +281,21 @@ font-weight: 400;
     flex-wrap: wrap;
     padding-bottom: 32px;
     width: 100%;
-
 }
+
 .portfolio-list-item {
     
     background-color: #fff; 
     border:1px solid #E7E9FC;
     max-width: 80%;
-    margin-right: 24px;
-   
+    margin-right: 24px;  
 }
+
 .portfolio-list-item-images{
     width: 360px;
-    height: 300px;
-    
+    height: 300px;   
 }
+
 .portfolio-list-text {
     font-size: 16px;
     line-height: 1.5;

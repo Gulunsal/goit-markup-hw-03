@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="Main Page" content="Homework for GOİT Courses" />
@@ -15,25 +16,27 @@
 
 <body>
     <header>
-     <!--Navbardaki logo ve liste içeriğinin html-css düzenlemesini ve içerir-->
-        <nav class=" nav-container">
-          <a class="logo link" href="./index.html">Web<span class="logotext">Studio</span></a>
-         <ul class="nav-list">
-            <li class="nav-item">
-                <a class="link" href="./index.html">Studio</a>
-            </li>
-            <li class="nav-item">
-                <a class="link" href="">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="link" href="">Contacts</a>
-            </li>
-        </ul>
-        </nav>
-         
-     <!--Adres etiketinin html-css düzenlemesini içerir-->
-            
-     <address class="contact">
+        <!--Navbardaki logo ve liste içeriğinin html-css düzenlemesini ve içerir-->
+        <div id="container-nav">
+            <nav class=" nav-container">
+                <a class="logo link" href="./index.html">Web<span class="logotext">Studio</span></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--Adres etiketinin html-css düzenlemesini içerir-->
+        <div id="container-contact">
+            <address class="contact">
                 <ul class="contact-list">
                     <li class="contact-list-link">
                         <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -42,21 +45,23 @@
                         <a class="link" href="tel:+110001111111"> +11 (000) 111-11-11</a>
                     </li>
                 </ul>
-     </address> 
-         
+            </address>
+        </div>
+
+
     </header>
     <main>
         <!--Effective solutions bölümünün html-css düzenlemesini içerir-->
         <section class="container-main">
-                <h1 class="header-big">Effective Solutions for Your Business</h1>
-        
-            
-                <button class="button" type="button">Order Service</button>
+            <h1 class="header-big">Effective Solutions for Your Business</h1>
+
+
+            <button class="button" type="button">Order Service</button>
 
         </section>
         <!--Mission bölümünün htm-css düzenlemesini içerir-->
         <section class="container-mission">
-           <!-- <h2 class="Mission"> </h2> --> 
+            <!-- <h2 class="Mission"> </h2> -->
             <ul class="mission-list">
                 <li>
                     <h3 class="mission-list-header">Strategy</h3>
@@ -93,49 +98,58 @@
         </section>
         <!--Our team bölümünün html-css düzenlemesini içerir-->
         <section class="team">
-            <h2 class="team-header">Our Team</h2>
-            <ul class="team-list">
-                <li class="team-list-item">
-                    <img src="./images/team-1.jpg" width="264" height="260" alt="Mark Gueerero images" class="team-cart-img" />
-                    <h3 class="team-list-header">Mark Guerrero</h3>
-                    <p class="team-list-text">Product Designer</p>
-                </li>
-        
-                <li class="team-list-item">
-                    <img src="./images/team-2.jpg" width="264" height="260" alt="Tom Ford images" class="team-cart-img" />
-                    <h3 class="team-list-header">Tom Ford</h3>
-                    <p class="team-list-text">Frontend Developer</p>
-                </li>
-        
-                <li class="team-list-item">
-                    <img src="./images/team-3.jpg" width="264" height="260" alt="Camila Garcia images" class="team-cart-img" />
-                    <h3 class="team-list-header">Camila Garcia</h3>
-                    <p class="team-list-text">Marketing</p>
-                </li>
-        
-                <li class="team-list-item">
-                    <img src="./images/team-4.jpg" width="264" height="260" alt="Daniel Wilson images" class="team-cart-img"/>
-                    <h3 class="team-list-header">Daniel Wilson</h3>
-                    <p class="team-list-text">UI Designer</p>
-                </li>
-            </ul>
+            <div id="container-team-card">
+                <h2 class="team-header">Our Team</h2>
+                <ul class="team-list">
+                    <li class="team-list-card">
+                        <img src="./images/team-1.jpg" width="264" height="260" alt="Mark Gueerero images"
+                            class="team-cart-img" />
+                        <h3 class="team-list-header">Mark Guerrero</h3>
+                        <p class="team-list-text">Product Designer</p>
+                    </li>
+
+                    <li class="team-list-card">
+                        <img src="./images/team-2.jpg" width="264" height="260" alt="Tom Ford images"
+                            class="team-cart-img" />
+                        <h3 class="team-list-header">Tom Ford</h3>
+                        <p class="team-list-text">Frontend Developer</p>
+                    </li>
+
+                    <li class="team-list-card">
+                        <img src="./images/team-3.jpg" width="264" height="260" alt="Camila Garcia images"
+                            class="team-cart-img" />
+                        <h3 class="team-list-header">Camila Garcia</h3>
+                        <p class="team-list-text">Marketing</p>
+                    </li>
+
+                    <li class="team-list-card">
+                        <img src="./images/team-4.jpg" width="264" height="260" alt="Daniel Wilson images"
+                            class="team-cart-img" />
+                        <h3 class="team-list-header">Daniel Wilson</h3>
+                        <p class="team-list-text">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+
         </section>
         <!--Our Portfolio bölümünün html-css düzenlemesini içerir-->
         <section class="portfolio">
             <h2 class="portfolio-header">Our Portfolio</h2>
             <ul class="portfolio-list">
                 <li class="portfolio-list-item">
-                    <img src="./images/service1.jpg" width="360" alt="Banking App" class="portfolio-list-item-images" >
+                    <img src="./images/service1.jpg" width="360" alt="Banking App" class="portfolio-list-item-images">
                     <h3 class="portfolio-list-header">Banking App</h3>
-                    <p class="portfolio-list-text">App</p> 
+                    <p class="portfolio-list-text">App</p>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/service2.jpg" width="360" alt="Cashless Payment" class="portfolio-list-item-images" >
+                    <img src="./images/service2.jpg" width="360" alt="Cashless Payment"
+                        class="portfolio-list-item-images">
                     <h3 class="portfolio-list-header">Cashless Payment</h3>
-                    <p class="portfolio-list-text">Marketing</p> 
+                    <p class="portfolio-list-text">Marketing</p>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/service3.jpg" width="360" alt="Meditation App" class="portfolio-list-item-images" >
+                    <img src="./images/service3.jpg" width="360" alt="Meditation App"
+                        class="portfolio-list-item-images">
                     <h3 class="portfolio-list-header">Meditation App</h3>
                     <p class="portfolio-list-text">App</p>
                 </li>
@@ -145,18 +159,20 @@
                     <p class="portfolio-list-text">Marketing</p>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/service5.jpg" width="360" alt="Screen Illustrations" class="portfolio-list-item-images">
+                    <img src="./images/service5.jpg" width="360" alt="Screen Illustrations"
+                        class="portfolio-list-item-images">
                     <h3 class="portfolio-list-header">Screen Illustrations</h3>
                     <p class="portfolio-list-text">Design</p>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/service6.jpg" width="360" alt="Online Courses" class="portfolio-list-item-images">
+                    <img src="./images/service6.jpg" width="360" alt="Online Courses"
+                        class="portfolio-list-item-images">
                     <h3 class="portfolio-list-header">Online Courses</h3>
                     <p class="portfolio-list-text">Marketing</p>
                 </li>
             </ul>
         </section>
-        
+
     </main>
     <!-- Footer bölümünün html-css düzenlemesini içerir-->
     <footer class="footer">
