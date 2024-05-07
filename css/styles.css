@@ -20,8 +20,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 72;
-    width: 720;
+    height: 72px;
+    width: 720px;
 }
 #container-contact{
     display: flex;
@@ -29,8 +29,8 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 10px 20px;
-    width: 720;
-    height: 72;
+    width: 720px;
+    height: 72px;
     
 }
 .nav-container {
