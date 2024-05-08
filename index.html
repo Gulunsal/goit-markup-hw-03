@@ -6,7 +6,8 @@
     <meta name="Main Page" content="Homework for GOİT Courses" />
     <title>web studios</title>
     <!--Bağlantılar bölümünününü içerir-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500&display=swap"
@@ -18,91 +19,97 @@
 <body>
     <header>
         <!--Navbardaki logo ve liste içeriğinin html-css düzenlemesini ve içerir-->
+        <div class="navbar-container">
+            <nav>
+                <div class="container-nav">
+                    <a class="logo link" href="./index.html">Web<span class="logotext">Studio</span></a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a class="link" href="./index.html">Studio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link" href="./index.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link" href="./index.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-        <nav class=" navbar-container">
-            <div class="container-nav">
-                <a class="logo link" href="./index.html">Web<span class="logotext">Studio</span></a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a class="link" href="./index.html">Studio</a>
+
+        <!--Adres etiketinin html-css düzenlemesini içerir-->
+
+        <address>
+            <div class="contact">
+                <ul class="contact-list">
+                    <li class="contact-list-link">
+                        <a class="link" href="mailto:info@devstudio.com"> info@devstudio.com </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="link" href="./index.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="link" href="./index.html">Contacts</a>
+                    <li class="contact-list-link">
+                        <a class="link" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
                     </li>
                 </ul>
-                <!--Adres etiketinin html-css düzenlemesini içerir-->
-                <div>
-                    <address class="contact">
-                        <ul class="contact-list">
-                            <li class="contact-list-link">
-                                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                            </li>
-                            <li class="contact-list-link">
-                                <a class="link" href="tel:+110001111111"> +11 (000) 111-11-11</a>
-                            </li>
-                        </ul>
-                    </address>
-                </div>
             </div>
+        </address>
 
-        </nav>
-
-
+        </div>
     </header>
 
     <main>
         <!--Birinci bölüm Effective solutions bölümünün html-css düzenlemesini içerir-->
         <section class="section-one">
-            <div class="container-header">
-                <h1 class="header-big">Effective Solutions for Your Business</h1>
-                <button class="button" type="button">Order Service</button>
+            <div class="container">
+                <div class="container-header">
+                    <h1 class="header-big">Effective Solutions for Your Business</h1>
+                    <button class="button" type="button">Order Service</button>
+                </div>
             </div>
 
         </section>
         <!--İkinci Bölüm Mission bölümünün htm-css düzenlemesini içerir-->
-        <section id="two-section">
+        <section id="section-two">
             <div class="container">
-
                 <h2 class="hidden-title">Mission</h2>
+
+                <ul class="mission-list">
+                    <li class="list-item">
+
+                        <h3 class="mission-list-header">Strategy</h3>
+                        <p class="mission-list-text">
+
+                            Our goal is to identify the business problem to walk away with the
+                            perfect and creative solution.
+                        </p>
+                    </li>
+
+                    <li class="list-item">
+                        <h3 class="mission-list-header">Punctuality</h3>
+                        <p class="mission-list-text">
+                            Bring the key message to the brand's audience for the best price
+                            within the shortest possible time.
+                        </p>
+                    </li>
+
+                    <li class="list-item">
+                        <h3 class="mission-list-header">Diligence</h3>
+                        <p class="mission-list-text">
+                            Research and confirm brands that present the strongest digital
+                            growth opportunities and minimize risk.
+                        </p>
+                    </li>
+
+                    <li class="list-item">
+                        <h3 class="mission-list-header">Technologies</h3>
+                        <p class="mission-list-text">
+                            Design practice focused on digital experiences. We bring forth a
+                            deep passion for problem-solving.
+                        </p>
+                    </li>
+                </ul>
                 <div>
-                    <ul class="mission-list">
-                        <li class="list-item">
 
-                            <h3 class="mission-list-header">Strategy</h3>
-                            <p class="mission-list-text">
-
-                                Our goal is to identify the business problem to walk away with the
-                                perfect and creative solution.
-                            </p>
-                        </li>
-
-                        <li class="list-item">
-                            <h3 class="mission-list-header">Punctuality</h3>
-                            <p class="mission-list-text">
-                                Bring the key message to the brand's audience for the best price
-                                within the shortest possible time.
-                            </p>
-                        </li>
-
-                        <li class="list-item">
-                            <h3 class="mission-list-header">Diligence</h3>
-                            <p class="mission-list-text">
-                                Research and confirm brands that present the strongest digital
-                                growth opportunities and minimize risk.
-                            </p>
-                        </li>
-
-                        <li class="list-item">
-                            <h3 class="mission-list-header">Technologies</h3>
-                            <p class="mission-list-text">
-                                Design practice focused on digital experiences. We bring forth a
-                                deep passion for problem-solving.
-                            </p>
-                        </li>
-                    </ul>
                 </div>
 
             </div>
