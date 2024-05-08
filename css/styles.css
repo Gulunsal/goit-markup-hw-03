@@ -254,13 +254,13 @@ background-color: #404bbf;
     padding:32px 0;
 }
 
-.container-card{
+.team-card{
     display:flex;
     flex-direction: row;
 
    
 }
-.container-card li {
+.team-card li {
     text-align: center;
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
