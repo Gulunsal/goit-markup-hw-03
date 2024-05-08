@@ -132,7 +132,6 @@ main {
     background-color: #2e2f42;
     width: 1440px;
     height: 600px;
-    top:72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,12 +151,12 @@ main {
     line-height: 1.07;
     color: #fff;
     max-width: 496px;
+   
 }
-.button-item {
-    display: block;
-    margin:auto;
-}
+
 .button {
+    display: block;
+    margin: auto;
     background-color: #4d5ae5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
