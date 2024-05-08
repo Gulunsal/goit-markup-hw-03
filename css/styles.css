@@ -38,7 +38,7 @@ header {
     width: 720px;
 }
 
-#header .container {
+#header-section .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,7 +127,7 @@ header {
     list-style: none;
 }
 
-
+/*birinci bölümün css düzenlemesini içerir*/
 .section-one{
 
     background-color: #2e2f42;
@@ -151,7 +151,6 @@ header {
     line-height: 1.07;
     color: #fff;
     max-width: 496px;
-
 }
 
 .section-one .button {
@@ -183,7 +182,7 @@ background-color: #404bbf;
     list-style: none;
 }
 
-/*birinci bölümün css düzenlemesini içerir*/
+/*ikinci bölümün css düzenlemesini içerir*/
 .mission-list {
     display:flex;
     flex-direction: row;
@@ -256,14 +255,19 @@ background-color: #404bbf;
 }
 
 .container-card{
+    display:flex;
+    flex-direction: row;
+
+   
+}
+.container-card li {
     text-align: center;
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
     border: 1px solid #e7e9fc;
-   
-}
-.container-card li {
-    width: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
+    margin-right: 24px;
+
 }
 .team-list-header{
     text-align: center;   
@@ -276,12 +280,13 @@ background-color: #404bbf;
     text-align: center;
 }
 
-/*üçüncü bölümün css düzenlemesini içerir*/
-.portfolio-list-item {
- 
-    background-color: #fff;
-    border: 1px solid #E7E9FC;
-    width: calc((100% - 48px) / 3);
+/*dördüncü bölümün css düzenlemesini içerir*/
+
+.portfolio-list li {
+display: block;
+width: calc((100% - 48px) / 3);
+background-color: #fff;
+border: 1px solid #E7E9FC;
 
 }
 
@@ -292,6 +297,7 @@ background-color: #404bbf;
     column-gap: 24px;
     row-gap: 48px;
     margin-left: auto;
+ 
    
 }
 .container-app-category{
