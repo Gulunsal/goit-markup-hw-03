@@ -14,7 +14,7 @@ img {
     max-width: 100%;
    
 }
-.header {
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -127,7 +127,8 @@ main {
     justify-content: center;
     align-items: center;
 }
-.container-main{
+.section-one{
+
     background-color: #2e2f42;
     width: 1440px;
     height: 600px;
@@ -137,11 +138,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 188px 0;
-       
-}
-.container-main{
-    display: flex;
-    justify-content: center; 
+   
 }
 
 .header-big {    
