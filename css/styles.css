@@ -188,9 +188,6 @@ background-color: #404bbf;
     gap: 24px;
     background-color: #fff;
 }
-.mission-list li {
- width: calc((100%-72px) / 4);
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -201,6 +198,10 @@ background-color: #404bbf;
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+.mission-list li {
+width: calc((100% - 72px) / 4);
+}
+
 .mission-list h3 {
     margin-bottom: 8px;  
 }
