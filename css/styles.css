@@ -18,7 +18,7 @@ img {
 
     padding: 120px 0;
 }
-/* ilk bölüm (başlık) css düzenlemesini içerir*/
+/* Başlık css düzenlemesini içerir*/
 header {
     display: flex;
     flex-direction: row;
@@ -32,6 +32,7 @@ header .container {
     justify-content: space-between;
     align-items: center;
     width: 1158px;
+   
 }
 .container-nav{
     display: flex;
@@ -41,6 +42,7 @@ header .container {
     padding: 0 15px;
     height: 72px;
     width: 720px;
+    margin:auto;
 }
 
 
@@ -63,6 +65,7 @@ header .container {
     padding: 10px 20px;
     width:720px;
     height:72px;   
+    margin:auto;
 }
  .contact-list {
     display:flex;
