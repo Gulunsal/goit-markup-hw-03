@@ -186,12 +186,11 @@ background-color: #404bbf;
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    padding: 0;
+    padding: 120px 0;
 }
  #section-two .container  {
+    padding:0;
  
- 
-
  }
 .mission-list {
     display:flex;
@@ -256,11 +255,13 @@ width: calc((100% - 72px) / 4);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0;
+    padding: 120px 0;
+    background-color: #F4F4FD;
 }
 
 #section-three .container {
-    background-color:#F4F4FD;
+    
+    padding: 0;
     
 }
 
@@ -315,8 +316,11 @@ width: calc((100% - 72px) / 4);
 /*dördüncü bölümün css düzenlemesini içerir*/
 
 #section-four {
-    padding: 0;
+    padding: 120px 0;
 
+}
+#section-four .container {
+    padding: 0;
 }
 
 .portfolio-list {
