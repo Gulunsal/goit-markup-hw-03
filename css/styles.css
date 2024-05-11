@@ -42,7 +42,7 @@ header .container {
     padding: 0 15px;
     height: 72px;
     width: 720px;
-    margin:auto;
+    
 }
 
 
@@ -65,7 +65,7 @@ header .container {
     padding: 10px 20px;
     width:720px;
     height:72px;   
-    margin:auto;
+  
 }
  .contact-list {
     display:flex;
