@@ -58,7 +58,7 @@ ul {
  .nav-menu li{ 
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
+    
 }
 
 
@@ -100,6 +100,7 @@ ul {
 
 .link {
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .logotext {
@@ -130,8 +131,10 @@ ul {
 }
 
 .contact-list {
+    display: flex;
     font-style: normal;
     list-style: none;
+    gap: 40px;
 }
 
 /*ilk bölümün css düzenlemesini içerir*/
