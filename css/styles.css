@@ -73,15 +73,7 @@ ul {
   
 }
 
- .contact-list-link {
-   
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 24px 0;
-    gap: 40px;
-    
- } 
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -208,20 +200,20 @@ background-color: #404bbf;
     max-width: 80%;
     margin: auto;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
+    border: 0;
     padding: 0;
-    border:0;
     white-space: nowrap;
-    overflow: hidden;
     clip-path: inset(100%);
-    clip-path: rect (0 0 0 0);
+    clip: rect(0 0 0 0);
     overflow: hidden;
-    
 }
+
 .mission-list li {
 
 width: calc((100% - 72px) / 4);
@@ -357,13 +349,14 @@ width: calc((100% - 72px) / 4);
     
 }
 
-.card-category{
+.card-category {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 32px 16px;
     background-color: #fff; 
-    margin-bottom: 8px
+    margin-bottom: 8px;
+
 }
 
 .portfolio-list-text {
