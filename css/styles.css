@@ -58,7 +58,8 @@ ul {
  .nav-menu li{ 
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;}
+    padding: 24px 0;
+}
 
 
 .contact {
@@ -66,12 +67,12 @@ ul {
     flex-direction: row;
     justify-content:flex-end;
     align-items: center;
-    padding: 10px 20px;
+    padding: 24px 0;
     width:720px;
     height:72px;   
   
 }
- .contact-list {
+ address .contact-list {
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -208,7 +209,7 @@ background-color: #404bbf;
     max-width: 80%;
     margin: auto;
 }
-.visually-hidden {
+.container .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -278,7 +279,7 @@ width: calc((100% - 72px) / 4);
     justify-content: center; 
     align-items: center;
     list-style: none;
-    column-gap: 24px;
+    gap: 24px;
     max-width: 80%;
     margin: auto;
          
